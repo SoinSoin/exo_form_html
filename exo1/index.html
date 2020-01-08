@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <formmethod="get"action="http://www.afpa.fr"> <p> Entrez votre nom......
+        <inputtype="text"name="le_nom" />
+        </p>
+        <p> Entrez votre e-mail...
+            <input type="text" name="email" /><!--  HTML5 ? -->
+        </p>
+        <p><i>Quel micro-ordinateur utilisez-vous ?</i></p>
+        <select name="" id="">
+            <option value="">PC</option>
+            <option value="">MAC</option>
+            <option value="">UNIX</option>
+        </select>
+
+        <p><i>Média de distribution ?</i></p>
+        <select name="" id="">
+            <option value="">CD</option>
+            <option value="">DISQUETTE</option>
+            <option value="">CLE USB</option>
+        </select>
+        <h1>OU</h1>
+
+        <select name="" id="">
+            <opgroup>
+                <option value="" disabled>Selectionnez</option>
+            </opgroup>
+            <optgroup label="Média de distribution ?">
+                <option value="">PC</option>
+                <option value="">MAC</option>
+                <option value="">UNIX</option>
+            </optgroup>
+            <optgroup label="Quel micro-ordinateur utilisez-vous ?">
+                <option value="">CD</option>
+                <option value="">DISQUETTE</option>
+                <option value="">CLE USB</option>
+            </optgroup>
+        </select>
+
+        <p>
+            <input type="submit" value="validez" />
+        </p>
+        </form>
+</body>
+
+</html>
